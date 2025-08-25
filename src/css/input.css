@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+@theme {
+    --color-primary: #1d4ed8;
+    --color-secondary: #64748b;
+    --color-accent: #fbbf24;
+
+    --font-poppins: 'Poppins', sans-serif;
+    --font-league-gothic: 'League Gothic', sans-serif;
+}
+
+:root {
+    font-family: var(--font-poppins);
+}
